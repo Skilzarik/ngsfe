@@ -1,12 +1,11 @@
-import { forwardRef, useRef, useEffect } from "react";
+import { forwardRef, useRef } from "react";
 import Draggable from "react-draggable";
 import "./youtube.css";
 
-const YouTubeWindow = forwardRef<HTMLDivElement>((_, ref) => {
+const YouTubeWindow = forwardRef<HTMLDivElement>(() => {
   const nodeRef = useRef(null); // new React 18 compatible ref
-
   return (
-    <Draggable handle=".window-header" nodeRef={nodeRef}>
+    <Draggable handle=".window-header">
       <div className="window" ref={nodeRef}>
         <div className="window-header">YouTube Player</div>
           <iframe

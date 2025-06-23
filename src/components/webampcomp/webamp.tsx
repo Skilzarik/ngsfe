@@ -1,5 +1,6 @@
 import { useEffect, useRef} from "react";
 import Webamp from "webamp";
+import "./webamp.css"
 
 interface WebampPlayerProps {
   visible: boolean;
