@@ -4,15 +4,17 @@ body, html {
   width: 100%;
   height: 100%;
   background: #222;
+  background-image: url("img/ac7d3e93e09127ac5f17f8dbb47774d3.jpg");
+  background-repeat: no-repeat;  
+  background-size: cover; 
   font-family: sans-serif;
   overflow: hidden;
 }
 
 .desktop {
   position: relative;
-  width: 100%;
   height: 100%;
-  background: #1e1e1e;
+  width: 100%;
   padding: 20px;
 }
 
@@ -30,28 +32,6 @@ body, html {
 .icon span {
   margin-top: 5px;
   font-size: 12px;
-}
-
-.window {
-  width: 320px;
-  background-color: #111;
-  border: 1px solid #666;
-  position: absolute;
-  top: 100px;
-  left: 100px;
-  z-index: 1000;
-  border-radius: 4px;
-  overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-}
-
-.window-header {
-  background: #444;
-  color: white;
-  padding: 8px;
-  cursor: move;
-  font-weight: bold;
-  font-size: 14px;
 }
 
 #webamp-container {
